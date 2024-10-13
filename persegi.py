@@ -8,4 +8,4 @@ luas = sisi * sisi
 keliling = 4 * sisi
 
 print('luas persegi\t\t:',luas,'cm2')
-print('keliling persegi\t:',keliling'cm2')
+print('keliling persegi\t:',keliling, 'cm2')
