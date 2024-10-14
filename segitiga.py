@@ -2,8 +2,12 @@ print('='*30)
 print('menghitung luas segitiga')
 print('='*30)
 
-alas = int(input('masukkan nilai alas\t: '))
-tinggi = int(input('masukkan nilai tinggi\t: '))
-luas = 1/2 * alas * tinggi
+def segitiga:
+    alas = int(input('masukkan nilai alas\t: '))
+    tinggi = int(input('masukkan nilai tinggi\t: '))
+    luas = lambda alas, tinggi: 1/2 * alas * tinggi
 
-print(f'luas segitiga adalah\t: ',luas)
+    print(f'luas segitiga adalah\t: ',luas(alas, tinggi))
+segitiga()
+print('- '*20)
+segitiga()

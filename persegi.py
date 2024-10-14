@@ -2,10 +2,16 @@ print('='*30)
 print('      luas persegi    ')
 print('='*30)
 
-sisi = int(input('masukan nilai sisi\t: '))
+def persegi():
+    sisi = int(input('masukan nilai sisi\t: '))
+    luas = lambda s: sisi * sisi
+    keliling = lambda s: 4 * sisi
 
-luas = sisi * sisi
-keliling = 4 * sisi
+    print('luas persegi\t\t:',luas(luas),'cm2')
+    print('keliling persegi\t:',keliling(keliling), 'cm')
 
-print('luas persegi\t\t:',luas,'cm2')
-print('keliling persegi\t:',keliling, 'cm2')
+persegi()
+print('- '*20)
+persegi()
+print('- '*20)
+persegi()

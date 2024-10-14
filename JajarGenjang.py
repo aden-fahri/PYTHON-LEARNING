@@ -1,13 +1,17 @@
-print('='*30)
+print('='*40)
 print(' luas dan keliling jajar genjang ')
-print('='*30)
+print('='*40)
 
-alas = float(input('masukkan alas jajar genjang: '))
-tinggi = float(input('masukkan tinggi jajar genjang: '))
-panjang_sisi_jajar_genjang_a = float(input('masukan panjang_sisi_jajar_genjang_a: '))
-panjang_sisi_jajar_genjang_b = float(input('masukkan panjang_sisi_jajar_genjang_b: '))
+def JajarGenjang():
+    alas = int(input('masukkan alas jajar genjang\t\t: '))
+    tinggi = int(input('masukkan tinggi jajar genjang\t\t: '))
+    panjang_sisi_jajar_genjang_a = float(input('masukan panjang_sisi_jajar_genjang_a\t: '))
+    panjang_sisi_jajar_genjang_b = float(input('masukkan panjang_sisi_jajar_genjang_b\t: '))
 
-luas = alas * tinggi
-keliling = 2 * (panjang_sisi_jajar_genjang_a + panjang_sisi_jajar_genjang_b)
-print(f'hasil luas jajar genjang adalah: ', luas)
-print(f'hasil keliling jajar genjang adalah: ', keliling)
+    luas = lambda alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b:   alas * tinggi
+    keliling = lambda alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b: 2 * (panjang_sisi_jajar_genjang_a + panjang_sisi_jajar_genjang_b)
+    print(f'hasil luas jajar genjang adalah\t\t: ', luas(alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b))
+    print(f'hasil keliling jajar genjang adalah\t: ', keliling(alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b))
+JajarGenjang()
+print('- '*20)
+JajarGenjang()

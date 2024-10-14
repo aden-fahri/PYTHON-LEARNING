@@ -1,15 +1,20 @@
-print('='*30)
+print('='*60)
 print('menghitung volume, luas, dan keliling balok')
-print('='*30)
+print('='*60)
 
-p = int(input('masukkan panjang balok: '))
-l = int(input('masukkan lebar balok: '))
-t = int(input('masukkan tinggi balok: '))
+def balok():
+    p = int(input('masukkan panjang balok: '))
+    l = int(input('masukkan lebar balok: '))
+    t = int(input('masukkan tinggi balok: '))
 
-volume = p * l * t
-luas = 2*(p * l + p * t + l * t)
-keliling = 4*(p + l + t)
+    volume =lambda p, l, t: p * l * t
+    luas = lambda p, l, t: 2*(p * l) + (p * t) + (l * t)
+    keliling = lambda p, l, r: 4*(p + l + t)
 
-print('nilai volume balok adalah: ', volume)
-print('nilai luas balok adalah: ', luas)
-print('nilai keliling balok adalah: ', keliling)
+    print('nilai volume balok adalah: ', volume(p, l, t))
+    print('nilai luas balok adalah: ', luas(p, l, t))
+    print('nilai keliling balok adalah: ', keliling(p, l, t))
+
+balok()
+print('- '*20)
+balok()
