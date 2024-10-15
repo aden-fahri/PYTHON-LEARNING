@@ -10,10 +10,10 @@ def tabung():
     volume = lambda PHI, r, t: PHI * r**2 * t
     luas = lambda PHI, r, t: 2 * PHI * r * (r + t)
     keliling = lambda PHI, r, t: 2 * PHI * r
-    print('- '*30)
+    print('- '*20)
     print('nilai volume tabung adalah\t: ',volume(PHI, r, t))
     print('nilai luas tabung adalah\t: ',luas(PHI, r, t))
     print('nilai keliling tabung adalah\t: ',keliling(PHI, r, t))
 tabung()
-print('- '*30)
+print('- '*20)
 tabung()

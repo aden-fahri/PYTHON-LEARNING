@@ -12,6 +12,7 @@ def kerucut():
     a = lambda r, t, s, PHI: PHI * r * (r * s)
     ls = lambda r, t, s, PHI: PHI * r * s
 
+    print(' -'*30)
     print(f'nilai volume kerucut adalah\t\t: ', v(r, t, s, PHI))
     print(f'nilai luas permuakaan kerucut adalah\t: ', a(r, t, s, PHI))
     print(f'nilai luas selimut kerucut adalah\t: ', ls(r, t, s, PHI))

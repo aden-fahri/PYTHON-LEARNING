@@ -11,7 +11,7 @@ def persegi():
     print('keliling persegi\t:',keliling(keliling), 'cm')
 
 persegi()
-print('- '*20)
+print('- '*15)
 persegi()
-print('- '*20)
+print('- '*15)
 persegi()

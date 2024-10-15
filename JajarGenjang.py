@@ -10,6 +10,8 @@ def JajarGenjang():
 
     luas = lambda alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b:   alas * tinggi
     keliling = lambda alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b: 2 * (panjang_sisi_jajar_genjang_a + panjang_sisi_jajar_genjang_b)
+    
+    print('_ '*20)
     print(f'hasil luas jajar genjang adalah\t\t: ', luas(alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b))
     print(f'hasil keliling jajar genjang adalah\t: ', keliling(alas, tinggi, panjang_sisi_jajar_genjang_a, panjang_sisi_jajar_genjang_b))
 JajarGenjang()

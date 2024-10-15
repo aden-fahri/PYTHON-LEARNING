@@ -14,5 +14,5 @@ def LimasSegitiga():
     print('nilai volume limas segitiga adalah\t: ',v(l, t, luas_sisi_tegak_1, luas_sisi_tegak_2, luas_sisi_tegak_3))
     print('nilai luas permukaan limas segitiga adalah: ',luas_permukaan(l, t, luas_sisi_tegak_1, luas_sisi_tegak_2, luas_sisi_tegak_3))
 LimasSegitiga()
-print('- '*25)
+print('- '*30)
 LimasSegitiga()
