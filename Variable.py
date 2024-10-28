@@ -1,6 +1,6 @@
-print('='*60)
+print('='*65)
 print('variable nama barang, jumlah barang, harga, dan ketersediaan')
-print('='*60)
+print('='*65)
 
 Nama_Barang = input('masukkan nama barang\t: ')
 Jumlah_Barang = input('masukkan jumlah barang\t: ')
