@@ -1,5 +1,5 @@
 print('='*30)
-print('pengulangan 9')
+print('pengulangan 10')
 print('='*30)
 
 for x in range(1,6):
